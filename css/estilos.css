@@ -1,0 +1,78 @@
+html{
+    margin: auto;
+}
+
+header{
+    background-color: beige;
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: cadetblue;
+    margin: 10px;
+    padding:5px;
+}
+button{
+    border-radius: 5px;
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+div{
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    text-align:center;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+}
+
+.tabla{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+caption{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+table, thead{
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+tr,td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+section{
+    border: 2px, solid, black;
+    border-radius: 5px;
+    background-color: beige;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+</head>
+<body>
+
+    <header class="reglas">
+        <h1>Adivina el número</h1>
+        <p>
+            El juego consiste en intentar acertar un número que pensará la computadora aleatoriamente del 1 al 20,
+            con cada intento te dirá si es menor o mayor. Si lo adivinas antes de 6 intentos ganas, sino pierdes.
+        </p>
+    </header>
+    <br>
+    <section class="juego">
+
+        <div class="numero">
+            <p>
+                <strong>Numero:<strong> <input class="numeroElegido" type="number" name="cantidad" min="1" max="20" value ="1" step="1">        
+                <button id="comprobar">Comprobar</button>
+            </p>
+        </div>
+        
+        <div class="tabla">
+        </div>
+            
+        <br>
+
+        <div class="volveraJugar">
+            <button class="nuevoJuego">Volver a jugar</button>
+        </div>
+
+    </section>
+    
+    <script src="./js/codigo.js"></script>
+</body>
+</html>
